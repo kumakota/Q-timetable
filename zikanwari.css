@@ -18,11 +18,11 @@ body {
 #schedule{
     text-align: center;
 }
-@media(max-width: 1080px) {
+/*@media(max-width: 1080px) {
     .date{
-        font-size: 30px;
+        font-size: 40px;
     }
     .room{
-        font-size: 25px;
+        font-size: 30px;
     }
-}
+}*/
