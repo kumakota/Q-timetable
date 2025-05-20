@@ -1,5 +1,4 @@
 body {
-
     background-color: rgb(160, 194, 178);
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
@@ -8,14 +7,22 @@ body {
     line-height: 2;
     background-color: rgb(160, 194, 178);
     color: rgb(226, 171, 31);
-    font-size: 50px;
+    font-size: 60px;
 }
 .room{
     background-color: rgb(160, 194, 178);
     color: rgb(228, 55, 6);
-    font-size:40px;
+    font-size: 36px;
 }
 #schedule{
     text-align: center;
+}
+@media(max-width: 1080px) {
+    .date{
+        font-size: 44px;
+    }
+    .room{
+        font-size: 28px;
+    }
 }
 
