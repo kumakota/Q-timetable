@@ -7,22 +7,26 @@ body {
     line-height: 2;
     background-color: rgb(160, 194, 178);
     color: rgb(226, 171, 31);
-    font-size: 60px;
+    font-size: 36px;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 .room{
     background-color: rgb(160, 194, 178);
     color: rgb(228, 55, 6);
-    font-size: 36px;
+    font-size: 24px;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 #schedule{
     text-align: center;
 }
 @media(max-width: 1080px) {
     .date{
-        font-size: 44px;
+        font-size: 28px;
     }
     .room{
-        font-size: 28px;
+        font-size: 18px;
     }
 }
 
